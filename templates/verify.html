@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<link rel='stylesheet' type='text/css'  href="{{ url_for('static', filename='style.css')}}">
+</head>
+   <body id="bid">
+   
+   <form action = "{{ url_for( 'status' )}}" method = "POST" class="formstyle">
+      <fieldset id="borderfrom">
+      <table id="verifyset">
+            <tr><td> <b><span style="font-weight: bold"><font size="3"> OTP Sent to </font></span></b></td></tr>
+            <tr> <td><label for="Email" ><font size="2"> {{ result.email }} </font> </label> </td> </tr>
+            <tr><td><input type = "text" placeholder="Enter OTP" name="otp" maxlength="4" pattern="[0-9]{4}" title="Enter (4 Digit) valid OTP!" required /></td></tr>
+                     
+            <tr><td><input type = "submit" value = "submit" /></td></tr>
+            <!--<tr><td><input type = "hidden" value = "{{ result.email }}" name = "email"/></td></tr>-->
+      </table>
+      </fieldset>
+    <form>
+   </body>
+</html>

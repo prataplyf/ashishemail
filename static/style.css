@@ -1,0 +1,78 @@
+#bid {
+    align-content: center;
+    text-align: center;
+}
+
+#statustext {
+    color: blue;
+    margin: 0px;
+    text-align: center;
+}
+
+nav {
+    padding-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.formstyle {
+    font-size: 18px;
+    margin-top: 150px;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    line-height: 20px;
+}
+
+#borderfrom {
+    border: 1px solid rgb(70, 16, 221);
+    border-radius: 8px;
+    height: 160px;
+    width: 210px;
+    text-align: center;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<link rel='stylesheet' type='text/css'  href="{{ url_for('static', filename='style.css')}}">
+</head>
+   <body id="bid">  <!--Body Id-->
+   
+        <form action = 'verify' method = "POST" class="formstyle">
+            <fieldset id="borderfrom">
+            <table>
+                <tr><td>Enter Your Email</td></tr>
+                <tr><td> <input type ="email" name = "email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                            title="Please Enter valid Email!" placeholder="Enter Valid Email Id" required /></td></tr>
+                <tr><td><input type = "submit" value = "submit" /></td></tr>
+            </table>
+            </fieldset>
+      </form>
+      
+   </body>
+</html>
